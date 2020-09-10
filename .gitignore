@@ -1,0 +1,16 @@
+node_modules
+wp-content/plugins/.DS_Store
+/wp-config.php
+wp-config.php
+wp-config-prod.php
+.DS_Store
+wp-content/.DS_Store
+wp-content/plugins/.DS_Store
+
+*.log
+*.log
+wp-content/ai1wm-backups/medi-master.com-20200903-141526-zs324v.wpress
+*.log
+*.wpress
+wp-content/debug.log
+wp-content/plugins/all-in-one-wp-migration/storage/index.html
