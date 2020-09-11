@@ -223,26 +223,6 @@ function brandh_about_us( $atts, $content = null ) {
 add_shortcode( 'about_us', 'brandh_about_us' );
 
 
-// thankyou shortcode
-function brandh_thankyou( $atts, $content = null ) {
-	
-	//[thankyou]
-	
-	//get the attributes
-	$atts = shortcode_atts(
-		array(),
-		$atts,
-		'thankyou'
-	);
-	
-	//return HTML
-	ob_start();
-	include 'templates/thankyou.php';
-	return ob_get_clean();
-	
-}
-add_shortcode( 'thankyou', 'brandh_thankyou' );
-
 
 
 

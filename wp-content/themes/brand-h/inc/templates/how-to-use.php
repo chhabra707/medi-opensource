@@ -92,7 +92,7 @@ body{
   </div> -->
   <div style="height:400px">
     <div class="relative ">
-      <img class="mx-auto mb-24 mt-5" src="<?php bloginfo('template_directory') ?>/img/himedi-inquiry-screen1-min.png" width="346px" height="346px" alt="">      
+      <img class="mx-auto mb-24 mt-5" src="<?php bloginfo('template_directory') ?>/img/himedi-inquiry-screen1.png" width="346px" height="346px" alt="">      
     </div>
   </div>
 
@@ -121,7 +121,7 @@ body{
 	<div class=" mt-20 text-left px-6 font-size-24 leading-relaxed" style="color:#2681F3">
     STEP 02
   </div>
-  <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: Noto Sans Regular, sans-serif!important; ">
+  <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: 'noto_sanslight'!important;">
     <?php 
             if(ICL_LANGUAGE_CODE == 'en'){ 
                 echo 'If you would like to receive the <strong style="font-family: \'Noto Sans\', sans-serif!important;">second opinion</strong> or deputy consultation from the recommended doctors, please share more detailed <strong style="font-family: \'Noto Sans\', sans-serif!important;">medical records</strong>';
@@ -144,13 +144,13 @@ body{
       <div class="swiper-wrapper mt-12">
           <!-- Slides -->
           <div class="swiper-slide object-fit-slide">
-            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-1-min-700.jpg" alt="">
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-1.jpg" alt="">
           </div>
           <div class="swiper-slide object-fit-slide">
-            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-2-min-700.jpg" alt="" >
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-2.jpg" alt="" >
           </div>
           <div class="swiper-slide object-fit-slide">
-            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-3-min-700.jpg" alt="">
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-3.jpg" alt="">
           </div>
           <!-- ... (use in case of pagination) -->
       </div>
@@ -187,7 +187,7 @@ body{
     
   </div>
   <div class="mt-12">
-    <img src="<?php bloginfo('template_directory') ?>/img/section3-3-1-min-700.jpg" width="632px" height="348px" alt="">
+    <img src="<?php bloginfo('template_directory') ?>/img/section3-3-1.jpg" width="632px" height="348px" alt="">
   </div>
   <!-- Button (start) -->
   <div class="flex justify-center mt-24">
@@ -268,7 +268,7 @@ body{
     </a>
     <div>
       <!-- <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/section3-2-phone.png" width="346px" height="346px" alt=""> -->
-      <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/himedi-whatsapp1-min.png" width="346px" height="346px" alt="himedi-whatsapp">
+      <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/himedi-whatsapp1.png" width="346px" height="346px" alt="himedi-whatsapp">
     </div>
   </div>
   <div class="px-5"> 

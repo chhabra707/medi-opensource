@@ -4,6 +4,7 @@
 	
 @package sunsettheme
 -- Page Template
+
 */
 
 ?>
@@ -19,13 +20,13 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide object-fit-slide">
-					        <img src="<?php bloginfo('template_directory') ?>/img/Bild2-min-700.jpg" alt="" >
+					        <img src="<?php bloginfo('template_directory') ?>/img/Bild2.jpg" alt="" >
                 </div>
                 <div class="swiper-slide object-fit-slide">
-				          <img src="<?php bloginfo('template_directory') ?>/img/Bild3-min-700.jpg" >
+				          <img src="<?php bloginfo('template_directory') ?>/img/Bild3.jpg" >
                 </div>
                 <div class="swiper-slide object-fit-slide">
-				          <img src="<?php bloginfo('template_directory') ?>/img/Bild4-min-700.jpg">
+				          <img src="<?php bloginfo('template_directory') ?>/img/Bild4.jpg">
                 </div>
                 <!-- ... (use in case of pagination) -->
             </div>
@@ -93,7 +94,7 @@
 	<!-- Section1-1 (start) -->
 	  <!-- Content (start) -->
 	  <div class="mt-40 w-full" id="section2">
-	    <img src="<?php bloginfo('template_directory') ?>/img/section1-1-min-700.jpg" alt="">
+	    <img src="<?php bloginfo('template_directory') ?>/img/section1-1.jpg" alt="">
 	  </div>
 	  <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
 	  	<h2 class="px-8 font-size-24 text-left leading-relaxed " style="font-size:25px; font-weight:400; color:#000; line-height: 1.3em; font-family:arial;">
@@ -113,7 +114,7 @@
         ?>
 				
         </h2>
-            <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size: 20px; font-family: Noto Sans Light, sans-serif!important; line-height: 1.2; color: rgba(0,0,0,.5)!important; word-break: break-all;">
+            <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size: 20px; text-align: left!important;    font-family: Noto Sans Light, sans-serif!important; line-height: 1.2; color: rgba(0,0,0,.5)!important; word-break: break-all;">
             <?php 
               if(ICL_LANGUAGE_CODE == 'en'){ 
                   echo 'Send your relevant medical records such as treatment history, image, etc';
@@ -146,7 +147,7 @@
 
   <div class="w-full bg-gray-100 text-justify">
 		<div class="medi_graph flex flex-col justify-center flex-wrap" style="max-height: 450px;">
-			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none w-full" style="font-size:20px">
+			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px">
         <?php 
               if(ICL_LANGUAGE_CODE == 'en'){ 
                   echo 'The survival rate of patients with one of the 5 major cancers compared <br class="lg:hidden block">to that in the U.S';
@@ -172,7 +173,7 @@
 
 		</div>
 		<div class="medi_graph flex flex-col justify-center  flex-wrap hidden" style="max-height: 450px;">
-			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none w-full" style="font-size:20px;">
+			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px;">
         <?php 
               if(ICL_LANGUAGE_CODE == 'en'){ 
                   echo 'No. of hospitals per a thousand people among OECD countries';
@@ -198,7 +199,7 @@
 
 		</div>
 		<div class="medi_graph flex flex-col justify-center  flex-wrap hidden" style="max-height: 450px;">
-			<p class="pt-4 px-2  text-gray-700 text-center font-noto-regular leading-none w-full" style="font-size:20px;">
+			<p class="pt-4 px-2  text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px;">
         <?php 
               if(ICL_LANGUAGE_CODE == 'en'){ 
                   echo 'Medical expenses for serious illnesses in<br> <b>Germany VS Korea</b>';
@@ -232,7 +233,7 @@
 		</div>
 	</div>
 
-    <div class="lg:pt-32 pt-10 flex justify-between px-10 lg:px-24 py-10 graph-button-container">
+  <div class="lg:pt-32 pt-10 flex justify-between px-10 lg:px-24 py-10">
 		<button onclick="showGraph(1)"  class="grph_btn border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">
             <?php 
                     if(ICL_LANGUAGE_CODE == 'en'){ 
@@ -326,7 +327,7 @@
 	<!-- Chart Text (end) -->
 
   <!-- Arrow icon (start) -->
-  <a href="#section4" class="fourth-section">
+  <a href="#section4">
     <img class="mx-auto lg:pt-10 pt-32 pb-30 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
   </a>
 	<!-- Arrow icon (end) -->	
@@ -338,7 +339,7 @@
 	<!-- Content (start) -->
 	<div class="relative">
 		<div class="bg-black w-full h-full absolute inset-0 opacity-50"></div>
-		<img src="<?php bloginfo('template_directory') ?>/img/endCont-min.jpg">
+		<img src="<?php bloginfo('template_directory') ?>/img/endCont.jpg">
 		<p class="absolute inset-0 h-full text-white text-5xl px-5 contnet-addtional" style="font-size:24px; line-height:40px; font-family: Arial, Verdana, sans-serif!important; font-weight:400;">
       <?php 
           if(ICL_LANGUAGE_CODE == 'en'){ 
@@ -396,7 +397,22 @@
 	<!-- Button (start) -->
   <div class="flex justify-center">
     <button class="bg-brand text-white lg:w-1/2 w-12/12 mx-auto px-5 py-5 lg:px-0 mt-10 text-xs hover:bg-blue-500" style="border-radius:5px; border-color: #2681f3; font-size:16px; padding:10px 40px;">
-      <a href="/interview" style="color:white!important;" class="">Check Success Story</a>
+      <a href="/interview" style="color:white!important;" class="">
+      <?php 
+          if(ICL_LANGUAGE_CODE == 'en'){ 
+              echo 'Check Success Story';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ru') { 
+              echo 'Проверить историю успеха';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'mn') { 
+              echo 'Амжилтын түүхийг шалгана уу';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ar') { 
+              echo 'تحقق من قصة النجاح';
+          }
+      ?>	  
+	  </a>
     </button>
   </div>
 
@@ -612,7 +628,7 @@
   <div class="text-bold mt-20 font-bold text-left px-6 font-size-24 leading-relaxed" style="color:#2681F3; margin-top:12px;">
     <h2>STEP 01</h2>
   </div>
-  <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: font-family: Noto Sans Regular, sans-serif!important; ">
+  <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: 'noto_sanslight'!important;">
     <?php 
             if(ICL_LANGUAGE_CODE == 'en'){ 
                 echo 'Let <strong style="font-family: \'Noto Sans\', sans-serif!important;">Himedi</strong> know your disease name and questions you want to ask doctors';
@@ -630,7 +646,7 @@
     
   </div>
   <p class="px-6 pt-0 leading-none mt-3" style="font-size: 14px;
-    font-family: Noto Sans Light, sans-serif!important; line-height: 1.2; color: rgba(0,0,0,.5)!important;">
+    text-align: left!important; font-family: Noto Sans Light, sans-serif!important; line-height: 1.2; color: rgba(0,0,0,.5)!important;">
       <?php 
         if(ICL_LANGUAGE_CODE == 'en'){ 
             echo 'Based on the information you share and consultations, Himedi will recommend best-suitable remedies and doctors for you';
@@ -655,7 +671,7 @@
   </div> -->
   <div style="height:400px">
     <div class="relative ">
-      <img class="mx-auto mb-24 mt-5" src="<?php bloginfo('template_directory') ?>/img/himedi-inquiry-screen1-min.png" width="346px" height="346px" alt="">      
+      <img class="mx-auto mb-24 mt-5" src="<?php bloginfo('template_directory') ?>/img/himedi-inquiry-screen1.png" width="346px" height="346px" alt="">      
     </div>
   </div>
 
@@ -684,7 +700,7 @@
 	<div class="text-bold mt-20 font-bold text-left px-6 font-size-24 leading-relaxed" style="color:#2681F3">
     <h2>STEP 02</h2>
   </div>
-  <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: 'Noto Sans'!important;">
+  <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: 'noto_sanslight'!important;">
     <?php 
           if(ICL_LANGUAGE_CODE == 'en'){ 
               echo 'If you would like to receive the <strong style="font-family: \'Noto Sans\', sans-serif!important;">second opinion</strong> or deputy consultation from the recommended doctors, please share more detailed <strong style="font-family: \'Noto Sans\', sans-serif!important;">medical records</strong>';
@@ -707,13 +723,13 @@
       <div class="swiper-wrapper mt-2">
           <!-- Slides -->
           <div class="swiper-slide object-fit-slide">
-            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-1-min-700.jpg" alt="">
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-1.jpg" alt="">
           </div>
           <div class="swiper-slide object-fit-slide">
-            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-2-min-700.jpg" alt="" >
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-2.jpg" alt="" >
           </div>
           <div class="swiper-slide object-fit-slide">
-            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-3-min-700.jpg" alt="">
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-3.jpg" alt="">
           </div>
           <!-- ... (use in case of pagination) -->
       </div>
@@ -829,7 +845,7 @@
       </a>
     </div>
     <div>
-      <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/himedi-whatsapp1-min.png" width="346px" height="346px" alt="himedi-whatsapp">
+      <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/himedi-whatsapp1.png" width="346px" height="346px" alt="himedi-whatsapp">
     </div>
   </div>
   </div>
@@ -918,7 +934,15 @@
 
   //** Chart One */
   const chartOneCtx = document.getElementById('chart_1').getContext('2d');
-  const chartOneDataLabels = ["Gastric Cancer","Colon Cancer","Breast Cancer","Liver Cancer","Cervical Cancer"]
+<?php if(ICL_LANGUAGE_CODE == 'en'){ ?>
+const chartOneDataLabels = ["Gastric Cancer","Colon Cancer","Breast Cancer","Liver Cancer","Cervical Cancer"]
+<?php }elseif(ICL_LANGUAGE_CODE == 'ru') {  ?>
+const chartOneDataLabels = ["Рак желудка", "рак толстой кишки", "рак груди", "рак печени","рак шейки матки"]
+<?php }elseif(ICL_LANGUAGE_CODE == 'mn') {  ?>
+const chartOneDataLabels = ["Ходоодны хорт хавдар","бүдүүн гэдэсний хорт хавдар", "хөхний хорт хавдар", "элэгний хорт хавдар", "умайн хүзүүн хорт хавдар"]
+<?php }elseif(ICL_LANGUAGE_CODE == 'ar') {  ?>									
+const chartOneDataLabels = ["سرطان المعدة ","سرطان القولون","سرطان الثدي","سرطان الكبد ","سرطان عنق الرحم"]
+<?php } ?>  
   const chartOneBlueBarValues = [76, 76, 93, 35, 80]
   const chartOneGreyBarValues = [32, 66, 91, 19, 69]
 
@@ -994,8 +1018,17 @@
   }
 
   //** Chart Two */
-  const chartTwoCtx = document.getElementById('chart_2').getContext('2d');
-  const chartTwoDataLabels = ["South Korea", "Japan", "Australia", "Finland", "France", "Germany", "Mexico", "Switzerland", "Czech Republic", "Canada", "Chile", "U.S.", "Hungary"]
+  const chartTwoCtx = document.getElementById('chart_2').getContext('2d');  
+<?php if(ICL_LANGUAGE_CODE == 'en'){ ?>
+const chartTwoDataLabels = ["South Korea", "Japan", "Australia", "Finland", "France", "Germany", "Mexico", "Switzerland", "Czech Republic", "Canada", "Chile", "U.S.", "Hungary"]
+<?php }elseif(ICL_LANGUAGE_CODE == 'ru') {  ?>
+const chartTwoDataLabels = ["Южная Корея", "Япония", "Австралия", "Финляндия", "Франция", "Германия", "Мексика", "Швейцария", "Чехия", "Канада", "Чили", "США", "Венгрия"]
+<?php }elseif(ICL_LANGUAGE_CODE == 'mn') {  ?>
+const chartTwoDataLabels = ["Өмнөд Сологос", "Япон", "Австрали", "Финланд", "Франц", "Герман", "Мексик", "Швецар", "Чех", "Канад", "Чили", "АНУ", "Унгар"]
+<?php }elseif(ICL_LANGUAGE_CODE == 'ar') {  ?>									
+const chartTwoDataLabels = ["كوريا الجنوبية", " اليابان", "أستراليا", "فنلندا ", "فرنسا", "ألمانيا", "المكسيك", "سويسرا ", "جمهورية التشيك", "كندا", "تشيلي", "الولايات المتحدة", "المجر"]
+<?php } ?>  
+
   const chartTwoBlueBarValues = [74, 67, 56, 48, 46, 38, 37, 34, 25, 20, 20, 17, 17]
 
   const getColors = () => {
@@ -1080,11 +1113,30 @@
 
   //** Chart Three */
   const chartThreeOneCtx = document.getElementById('chart_3_1').getContext('2d');
-  const chartThreeOneLabels = ["Hematologic malignancy"]
+<?php if(ICL_LANGUAGE_CODE == 'en'){ ?>
+const chartThreeOneLabels = ["Hematologic malignancy"]
+<?php }elseif(ICL_LANGUAGE_CODE == 'ru') {  ?>
+const chartThreeOneLabels = ["Гематологические злокачественные новообразования"]
+<?php }elseif(ICL_LANGUAGE_CODE == 'mn') {  ?>
+const chartThreeOneLabels = ["Гематологийн эмгэг "]
+<?php }elseif(ICL_LANGUAGE_CODE == 'ar') {  ?>									
+const chartThreeOneLabels = ["الأورام الخبيثة الدموية"]
+<?php } ?>   
+  
   const chartThreeOneBlueBarValuesOne = [5.85]
   const chartThreeOneGreyBarValuesOne = [0.92]
 
   const chartThreeTwoCtx = document.getElementById('chart_3_2').getContext('2d');
+<?php if(ICL_LANGUAGE_CODE == 'en'){ ?>
+  const chartThreeTwoLabels = ["Brain cancer"]
+<?php }elseif(ICL_LANGUAGE_CODE == 'ru') {  ?>
+  const chartThreeTwoLabels = ["рак мозга"]
+<?php }elseif(ICL_LANGUAGE_CODE == 'mn') {  ?>
+  const chartThreeTwoLabels = ["тархины хорт хавдар"]
+<?php }elseif(ICL_LANGUAGE_CODE == 'ar') {  ?>									
+  const chartThreeTwoLabels = ["سرطان المخ"]
+<?php } ?>   
+
   const chartThreeTwoLabels = ["Brain cancer"]
   const chartThreeTwoBlueBarValuesTwo = [5.0]
   const chartThreeTwoGreyBarValuesTwo = [3.5]

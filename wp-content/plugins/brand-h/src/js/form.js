@@ -88,8 +88,8 @@ document.addEventListener('DOMContentLoaded', function(e) {
 					testimonialForm.querySelector('.js-form-error').classList.add('show');
 					return;
 				}
+
 				testimonialForm.querySelector('.js-form-success').classList.add('show');
-				window.location.replace("/thank-you-page");
 				testimonialForm.reset();
 			})
 	});

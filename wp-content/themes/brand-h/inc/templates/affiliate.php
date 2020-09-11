@@ -5,25 +5,26 @@
 </style>
 
   <!-- Popup Up start -->
-        <div id="bms_popup" class="content-affiliate flex flex-col items-center p-4 m-4 sm:p-10 fixed hidden z-40 " style="max-width: 635px; ; background-color: white; top: 50%;transform: translateY(-50%); max-height:100vh">
-            <button id="bms_popup_cancel_btn" class="fixed p-2 m-2 sm:p-4 sm:m-4 text-2xl sm:text-3xl cursor-pointer z-40 font-bold text-white border-r border text-center rounded-full hidden hover:bg-gray-500 text-white popup-close-btn" >X</button>
+          <div id="bms_popup" class="content-affiliate flex flex-col items-center p-4 m-4 sm:p-10 fixed hidden z-40 " style="max-width: 635px; ; background-color: white; top: 50%;transform: translateY(-50%); max-height:100vh">
             <div class="w-full overflow-hidden content-affiliate" >
                 <img id="bms_back_image" class="w-full bg-white" alt="" srcset="">
             </div>
             <div class="w-32 h-32 sm:w-40 sm:h-40 absolute border-solid border-4 sm:border-8 border-gray-600 rounded-full overflow-hidden content-affiliate-avatar" style="transform: translateY(-60%);">
                 <img id="bms_avatar_image" class="w-full bg-white" alt="" srcset="">
             </div>
-            <div class="w-full overflow-auto mt-24 hide_scrollBar text-effect" style="flex:60%;">
+            <div class="w-full overflow-auto mt-24 hide_scrollBar" style="flex:60%;">
                 <p id="bms_heading" class="font-size-22 text-b80 text-center mb-5 text-center" style="margin-top: 10px;">Text</p>
                 <p id="bms_about_text" class="text-base lg:text-2xl leading-normal text-center text-gray-600">#Text</p>
                 <p id="bms_tags" class="font-size-16 lg:text-xl text-b50 text-center margin-28 h-line-1-4 font-light keep-direction leading-none text-base">#Text</p>
             </div>
         </div>
-        
+        <div id="bms_popup_cancel_btn" class="fixed top-0 right-0 p-2 m-2 sm:p-4 sm:m-4 text-2xl sm:text-3xl cursor-pointer z-40 font-bold text-white hidden"></div>
         <div id="bms_pop_up_bg" class="fixed w-screen h-screen top-0 left-0 z-20 hidden" style="background-color: rgba(0, 0, 0, 0.5);"></div>
   <!-- Pop Up End -->
 
   <div style="margin-top:70px;">
+    
+    
     <div class="border-gray-700 border w-16 h-16 rounded-full py-2 px-2 flex items-center justify-center text-gray-700" style="margin:0 auto">
         <img class="mx-auto lg:h-8 h-8 w-8 lg:w-8"  src="<?php bloginfo('template_directory') ?>/img/hospital-alt-light.svg" >
       </div>
@@ -31,7 +32,21 @@
   </div>
   <div class="w-full mb-32 ">
     <h2 class="font-bold text-center px-6 font-size-24 leading-relaxed " style="font-size:22px">
-      Check out Korea’s <br class="lg:hidden">best medical staff
+     <?php 
+          if(ICL_LANGUAGE_CODE == 'en'){ 
+              echo 'Check out Korea’s <br class="lg:hidden">best medical staff';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ru') { 
+              echo 'Просмотреть лучших <br class="lg:hidden"> мед работников кореии ';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'mn') { 
+              echo 'Солонгосын шилдэг эмнэлэгийн <br class="lg:hidden"> ажилтануудтай танилцана уу';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ar') { 
+              echo 'تعرف على أفضل  <br class="lg:hidden">الطواقم الطبية الكورية.';
+          }
+         ?>	
+      
     </h2>
   </div>
   <!-- logo --> 

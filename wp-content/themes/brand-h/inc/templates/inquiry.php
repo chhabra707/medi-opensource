@@ -1,10 +1,3 @@
-
-<style type="text/css">
-	.rtl .inquiry-form span.pl-10 {
-    padding-left: 0;
-    padding-right: 2.5rem;
-}
-</style>
 <!-- Section 4 (start) -->
 <section class="items-center pt-10">
 
@@ -61,9 +54,7 @@
 
 	<!-- Form (start) -->
 	
-	<div class="inquiry-form">
-		<?php echo do_shortcode("[brand-h-form]"); ?>
-	</div>
+	<?php echo do_shortcode("[brand-h-form]"); ?>
 	<!-- Form (end) -->
 </section>
 <!-- Section 4 (end) -->

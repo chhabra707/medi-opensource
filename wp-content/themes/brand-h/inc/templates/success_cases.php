@@ -13,7 +13,7 @@
             <h2 class="font-bold text-center px-6 font-size-24 leading-relaxed " style="font-size:22px">
              <?php 
                 if(ICL_LANGUAGE_CODE == 'en'){ 
-                    echo 'Check out these diagnosis examples and methods bestsuitable for you.';
+                    echo 'Check out these diagnosis examples and methods best suitable for you.';
                 } 
                 elseif(ICL_LANGUAGE_CODE == 'ru') { 
                     echo 'Ознакомьтесь с примерами диагностики и методами, которые лучше всего подходят для вас.';
@@ -81,21 +81,17 @@
     </div> -->
 
     <div id="successCase_popup_bg" class="fixed w-screen h-screen top-0 right-0 z-40 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
-    <div id="successCase_popup" class="himedi-modal w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16 overflow-hidden  hidden successChart_popup" style="max-width: 635px;height: 70vh;top:50%; left: 50%; transform: translate(-50%, -50%);">
-        <!-- <button id="bms_popup_cancel_btn" class="fixed p-2 m-2 sm:p-4 sm:m-4 text-2xl sm:text-3xl cursor-pointer z-40 font-bold text-white border-r border text-center rounded-full text-gray-500 text-gray-200 bg-white hidden hover:bg-gray-300 popup-close-btn" >X</button> -->
-    <!-- <button type="button" class="inline-flex justify-center close-button w-full rounded-full border border-gray-300 px-8 py-6 bg-white text-base leading-6 font-medium text-gray-700 shadow-sm hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition ease-in-out duration-150 sm:text-2xl sm:leading-5">
-            x
-          </button>         -->
-    <!-- PopUp Content goes here. -->
-            <img class="absolute top-0 left-0 w-full h-full z-40" src="<?php bloginfo('template_directory') ?>/img/static/chart2-min.png" alt="" style="pointer-events:none">
+    <div id="successCase_popup" class=" w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16 overflow-hidden  hidden" style="max-width: 635px;height: 70vh;top:50%; left: 50%; transform: translate(-50%, -50%);">
+            <!-- PopUp Content goes here. -->
+            <img class="absolute top-0 left-0 w-full h-full z-40" src="<?php bloginfo('template_directory') ?>/img/static/chart2.png" alt="" style="pointer-events:none">
            <div class="w-full h-full overflow-auto hide_scrollBar" style="height:100%"> 
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-01-min.jpg" alt="">
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-02-min.jpg" alt="">
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-03-min.jpg" alt="">
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-04-min.jpg" alt="">
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-05-min.jpg" alt="">
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-06-min.jpg" alt="">
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-07-min.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-01.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-02.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-03.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-04.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-05.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-06.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-07.jpg" alt="">
            </div>
     </div>
     <script>
@@ -122,3 +118,4 @@
     </script>
 </section>
 <!-- Section 3-5 (end) -->
+
